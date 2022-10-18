@@ -1,5 +1,6 @@
 import React from "react";
 import Band from "./Band";
+import "./Band.css"
 
 function BandsList({ bands, changeCurrentBand }) {
   const allBands = bands.map((band) => {

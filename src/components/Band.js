@@ -20,13 +20,12 @@ function Band({ band, changeCurrentBand }) {
           <button
             type="button"
             class="btn btn-primary"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
+            
             onClick={() => {
               changeCurrentBand(band);
             }}
           >
-            Launch demo modal
+            Read More
           </button>
         </div>
       </div>
