@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./Band.module.css";
 
-function Band({ band, changeCurrentBand }) {
+function Band({ band, changeCurrentBand , filterBends}) {
+
+
   return (
     <div className="card mt-3">
       <div className="card-header">
@@ -19,7 +21,7 @@ function Band({ band, changeCurrentBand }) {
         <div className="card-footer">
           <button
             type="button"
-            class="btn btn-primary"
+            className="btn btn-primary"
             
             onClick={() => {
               changeCurrentBand(band);
